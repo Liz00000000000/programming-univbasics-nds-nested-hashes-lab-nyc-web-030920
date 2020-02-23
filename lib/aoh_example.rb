@@ -13,7 +13,11 @@ def assembled_aoh(hash)
   KATE_G = { name:  "Kate Gompert", occupation: "None" }
   BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
     array = [ ]
-    array.push(hash)
+    array.push(DON_G)
+    array.push(JOELLE_VD)
+    array.push(PAT_M)
+    array.push(KATE_G)
+    array.push(BRUCE_G)
 end
 
 #assembled_aoh(DON_G)
