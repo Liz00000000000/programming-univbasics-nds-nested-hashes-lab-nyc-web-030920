@@ -17,10 +17,9 @@ def assembled_aoh(hash)
     #p hash.map { |hash|  hash << array }
     array = [ ]
     array.push(hash)
-    @collection = array[0]
 end
 
-assembled_aoh(DON_G)
+#assembled_aoh(DON_G)
 
 
 def literal_aoh(hash)
