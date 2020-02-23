@@ -13,9 +13,11 @@ def assembled_aoh(hash)
    #array << hash
    #hash.map { |k,v| k }
     #p hash.each do { |key, value|}
-    a.reduce Hash.new, :merg
+    #a.reduce Hash.new, :merg
+    array [ ]
+    p hash.map { |hash|  hash << array }
 end
- 
+
 #assembled_aoh(DON_G)
 
 
