@@ -12,9 +12,10 @@ def assembled_aoh(key, value)
    #array = [ ]
    #array << hash
    #hash.map { |k,v| k }
-    p hash.each do { |key, value| "#{key} => #{value},"}
+    #p hash.each do { |key, value|}
+    a.reduce Hash.new, :merg
 end
-
+ 
 #assembled_aoh(DON_G)
 
 
